@@ -1,0 +1,127 @@
+{
+  "ver": "2.3.12",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "c41f6d50-72de-4589-90a0-65396cf2a9d9",
+  "files": [],
+  "subMetas": {
+    "c6160": {
+      "importer": "gltf-mesh",
+      "uuid": "c41f6d50-72de-4589-90a0-65396cf2a9d9@c6160",
+      "displayName": "",
+      "id": "c6160",
+      "name": "Cylinder001.mesh",
+      "userData": {
+        "gltfIndex": 0,
+        "triangleCount": 60
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "a96a6": {
+      "importer": "texture",
+      "uuid": "c41f6d50-72de-4589-90a0-65396cf2a9d9@a96a6",
+      "displayName": "",
+      "id": "a96a6",
+      "name": "贴图 #1.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": false,
+        "imageUuidOrDatabaseUri": "db://assets/model/effect/coin/coin.jpg"
+      },
+      "ver": "1.0.22",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "9d093": {
+      "importer": "gltf-material",
+      "uuid": "c41f6d50-72de-4589-90a0-65396cf2a9d9@9d093",
+      "displayName": "",
+      "id": "9d093",
+      "name": "Material #25.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "8038b": {
+      "importer": "gltf-scene",
+      "uuid": "c41f6d50-72de-4589-90a0-65396cf2a9d9@8038b",
+      "displayName": "",
+      "id": "8038b",
+      "name": "coin.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [
+      {
+        "name": "贴图 #1",
+        "uri": "db://assets/model/effect/coin/coin.jpg"
+      }
+    ],
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "redirect": "c41f6d50-72de-4589-90a0-65396cf2a9d9@8038b",
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [
+        "c41f6d50-72de-4589-90a0-65396cf2a9d9@c6160"
+      ],
+      "skeletons": [],
+      "textures": [
+        "c41f6d50-72de-4589-90a0-65396cf2a9d9@a96a6"
+      ],
+      "materials": [
+        "c41f6d50-72de-4589-90a0-65396cf2a9d9@9d093"
+      ],
+      "scenes": [
+        "c41f6d50-72de-4589-90a0-65396cf2a9d9@8038b"
+      ]
+    }
+  }
+}
